@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Graphic Designer Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <style> 
+        
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+}
+header {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+.portfolio {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+.project {
+    text-align: center;
+}
+.portfolio img {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Graphic Designer Portfolio</h1>
+    </header>
+    <div class="container">
+        <h2>About Me</h2>
+        <p>Hi, I'm a passionate graphic designer with a love for creativity and visual storytelling.</p>
+        <h2>Portfolio</h2>
+        <div class="portfolio">
+            <div class="project">
+                <img src="project.jpg" alt="Brand Identity Design">
+                <h3>Brand Identity Design</h3>
+                <p>Designed a cohesive brand identity including logo, typography, and business cards.</p>
+            </div>
+            <div class="project">
+                <img src="project2.jpeg" alt="Social Media Campaign">
+                <h3>Social Media Campaign</h3>
+                <p>Created engaging social media banners and advertisements for a brand promotion.</p>
+            </div>
+            <div class="project">
+                <img src="project3.jpeg" alt="UI/UX Mobile App Design">
+                <h3>UI/UX Mobile App Design</h3>
+                <p>Designed a user-friendly mobile app interface with a focus on user experience.</p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2025 Graphic Designer | Contact: email@example.com</p>
+    </footer>
+</body>
+</html>
